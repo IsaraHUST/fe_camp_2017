@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<style type="text/css">
+		*{
+			margin: 0; 
+			padding: 0;
+		}
+		html,
+		body{
+			height: 100%;
+			width: 100%;
+			background-image: url(PIC/1.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.login-box{
+			width: 400px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background-color: rgba(255, 255, 255, .5);
+			border-radius: 6px;
+		}
+		.login-header{
+			text-align: center;
+			padding:10px;
+			border-bottom: 2px solid #fff;
+		}
+		h2{
+			color: #4B0082;
+			font-family: "Courier New", Courier, monospace;
+		}
+		.login-body{
+			padding-top: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 5px;
+		}
+		.form-group{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.form-group1{
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		.ckpw{
+			padding-bottom: 10px;
+		}
+		label{
+			width: 4em;
+			display: inline-block;
+			text-align: right;
+			margin-right: 1em;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+		}
+		input{
+			width: 250px;
+			height: 30px;
+			font-size: 14px;
+			text-indent: 1em;
+			border: 1px solid #f3f3f3;
+			border-radius: 4px;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+		}
+		button{
+			width: 337px;
+			height: 35px;
+			background-color: hsl(213, 39%, 39%);
+			border: none;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+			border-radius: 5px;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+		}
+		button:hover{background-color:#9999CC;}
+		.others{
+			padding-bottom: 10px;
+			padding-left: 20px;
+		}
+		h3{
+			font-size: 12px;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+     <div class="login-box">
+		<div class="login-header">
+			<h2>Login</h2>
+		</div>
+		<div class="login-body">
+			<form>
+				<div class="form-group">
+					<label>Username</label>
+					<input type="text" name="username" placeholder="Email or Username">
+				</div>
+				<div class="form-group1">
+					<label>Password</label>
+					<input type="password" name="password" placeholder="Password">
+				</div>
+				<div class="ckpw">
+				    <h3>Forgotten your password?</h3>
+				</div>
+				<div class="form-group1">
+					<button type="submit">Sign in !</button>
+				</div>
+			</form>
+		</div>
+		<div class="others">
+			<h3>Create a new account!</h3>
+		</div>
+	</div>
+</body>
+</html>
